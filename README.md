@@ -1,5 +1,6 @@
 # double-data-structure
-
+# insert first , last , middle 
+# delete 
 #include <iostream>
 using namespace std;
 
@@ -164,6 +165,15 @@ int main() {
 	display();
 
 	insertAt(3, 25);
+	display();
+
+	deleteFirst();
+	display();
+
+	deleteLast();
+	display();
+
+	deleteAt(3);
 	display();
 	return 0;
 }
